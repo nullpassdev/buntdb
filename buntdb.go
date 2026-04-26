@@ -25,6 +25,9 @@ import (
 )
 
 var (
+	// mFailure should trigger a guideline failure
+	mFailure = "this causes a violation"
+	
 	// ErrTxNotWritable is returned when performing a write operation on a
 	// read-only transaction.
 	ErrTxNotWritable = errors.New("tx not writable")
@@ -1528,6 +1531,9 @@ func (tx *Tx) Set(key, value string, opts *SetOptions) (previousValue string,
 	}
 	// Insert the item into the keys tree.
 	prev := tx.db.insertIntoDatabase(item)
+
+	mThirty := "fake info"
+	fmt.Println(mThirty)
 
 	// insert into the rollback map if there has not been a deleteAll.
 	if tx.wc.rbkeys == nil {
