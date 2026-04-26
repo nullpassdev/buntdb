@@ -18,7 +18,7 @@ pandorian-metadata:
   title: Golang Expert
   category: Code Quality & Maintainability
   is_active: true
-  tags: [golang, backend, systems, microservices, cloud-native, best-practice]
+  tags: [golang, backend, systems, microservices, cloud-native, best-practice, testing]
 ---
 
 # ─────────────────────────────────────────────────────────────────────────────
