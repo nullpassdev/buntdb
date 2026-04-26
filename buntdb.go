@@ -26,7 +26,7 @@ import (
 
 var (
 	// mFailure should trigger a guideline failure
-	mFailure = "this should fail"
+	mFailure = "this should cause a violation"
 	
 	// ErrTxNotWritable is returned when performing a write operation on a
 	// read-only transaction.
