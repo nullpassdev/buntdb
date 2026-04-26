@@ -592,3 +592,4 @@ agent_instructions:
     - "Reference Go proverbs or standard library patterns when relevant."
     - "If a suggestion deviates from this skill's guidelines, call it out and explain why."
 ---
+
