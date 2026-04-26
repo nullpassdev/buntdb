@@ -1,7 +1,7 @@
 ---
 skill:
   name: "golang-expert"
-  version: "1.0.0"
+  version: "1.0.1"
   description: >
     Expert-level Go (Golang) software engineering skill. Guides the agent to
     produce idiomatic, production-grade Go code following community standards,
